@@ -1,0 +1,21 @@
+Student_Name1 - Akshu Nikunjkumar Patel(1002072333)
+Student_Name2 - Divya Darshi(1002090905)
+
+Point 7: Inserting records in the table.
+
+mysql> INSERT INTO games (gameId, season, week, gameDate, gameTimeEastern, homeTeamAbbr, visitorTeamAbbr) VALUES (2021092333, 2021, 1, STR_TO_DATE('9/12/2021', '%m/%d/%Y'), '17:15:00', 'DAL', 'TB');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> INSERT INTO games (gameId, season, week, gameDate, gameTimeEastern, homeTeamAbbr, visitorTeamAbbr)
+    -> VALUES (2021090999, 2021, 5, STR_TO_DATE('9/9/2021', '%m/%d/%Y'), '15:15:00', 'DA', 'DBA');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> INSERT INTO players (nflId, height, weight, birthDate, collegeName, officialPosition, displayName)
+    -> VALUES (31203, '5-May', 505, STR_TO_DATE('8/5/1977', '%m/%d/%Y'), 'Bostan', 'QB', 'Akshu Divya');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> INSERT INTO scouting (gameId, playId, nflId, pff_role, pff_positionLinedUp, pff_hit, pff_hurry, pff_sack, pff_beatenByDefender, pff_hitAllowed, pff_hurryAllowed, pff_sackAllowed, pff_nflIdBlockedPlayer, pff_blockType, pff_backFieldBlock)
+    -> ALUEVALUES (2021090900, 509, 42030, 'Pass', 'LLB', 0, 0, 0, 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> notee;

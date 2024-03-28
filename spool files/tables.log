@@ -1,0 +1,16 @@
+mysql> show tables;
++----------------------+
+| Tables_in_axp2333    |
++----------------------+
+| games                |
+| players              |
+| plays                |
+| scouting             |
+| tracking             |
++----------------------+
+5 rows in set (0.03 sec)
+
+mysql> select * from games;
+Empty set (0.01 sec)
+
+mysql> exit;
